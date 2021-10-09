@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #E5FEF9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,h2, p {
+  margin: 0;
+}
+
+/* --------------- Listing Pgae css -------------- */
+.listWrap {
+  max-width: 70%;
+  margin: auto;
+}
+.listWrap_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 15px #0000001a;
+}
+
+/* --------------- Listing Pgae Left Section css -------------- */
+.listWrap_left {
+  display: flex;
+  align-items: center;
+}
+.listWrap_left_logo {
+  margin-right: 1rem;
+}
+.listWrap_left_content {
+  text-align: left;
+}
+.listWrap_left_head, .listWrap_left_desc {
+  font-size: 1.4rem;
+}
+/* --------------- Listing Pgae Right Section css -------------- */
+.listWrap_right_content_tech, .listWrap_right_content_ctc {
+  margin-right: 2rem;
+  background: #e5fef9;
 }
