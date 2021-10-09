@@ -48,8 +48,35 @@ h1,h2, p {
 .listWrap_left_head, .listWrap_left_desc {
   font-size: 1.4rem;
 }
+
 /* --------------- Listing Pgae Right Section css -------------- */
 .listWrap_right_content_tech, .listWrap_right_content_ctc {
   margin-right: 2rem;
-  background: #e5fef9;
+  font-weight: 500;
+}
+
+/* --------------- Filter CSS-------------- */
+.filterWrap {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.filterWrap_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.filterWrap_content_item {
+  width: 100%;
+  margin-right: 1rem;
+  text-align: left;
+}
+.filterWrap_content_item:last-child {
+  margin-right: 0;
+}
+.filterWrap_content_item_label {
+  font-weight: bold;
+  margin-right: 10px;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
 }
