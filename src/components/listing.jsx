@@ -20,6 +20,7 @@ const Listing = () => {
     const handleSelectChange = (selectedValue, type) => {
         setFilterObj({ ...filterObj, [type]: selectedValue });
     }
+
     useEffect(() => {
         const { data = [] } = listData;
         const filteredData = data.filter((_data) => {
